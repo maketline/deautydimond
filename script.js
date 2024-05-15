@@ -1,8 +1,8 @@
    //ตั้งเวลาเปิดการลงคะแนนเสียง
-		    var future = Date.parse("May 02, 2024 06:00:00");
+		    var future = Date.parse("May 16, 2024 06:00:00");
         
    //ตั้งเวลาปิดการลงคะแนนเสียง 
-		    var future2 = Date.parse("May 02, 2024 13:00:00");
+		    var future2 = Date.parse("May 16, 2024 13:00:00");
 		    var timeEnd = 0;
 		    var status =0;
 		    
