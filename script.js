@@ -1,8 +1,8 @@
+
    //ตั้งเวลาเปิดการลงคะแนนเสียง
-		    var future = Date.parse("June 16, 2024 06:00:00");
-        
+		    var future = Date.parse("June 16, 2025 06:00:00");
    //ตั้งเวลาปิดการลงคะแนนเสียง 
-		    var future2 = Date.parse("June 16, 2024 13:00:00");
+		    var future2 = Date.parse("June 16, 2025 14:00:00");
 		    var timeEnd = 0;
 		    var status =0;
 		    
@@ -44,7 +44,7 @@
 
     /**  -- ควบคุมการเปิดหน้าต่างๆ คามเวลาที่กำหนด -- **/
 			  if (status== 0){
-				     document.getElementById("msgStatus").innerHTML ="<h2>จะเปิดให้เล่นกิจกรรมทายหวย</h2>"
+				     document.getElementById("msgStatus").innerHTML =`<h2>จะเปิดให้เล่นกิจกรรมทายหวย  </h2> <img src="https://media0.giphy.com/media/AgBce8OuQ5mbencR1H/200w.webp?cid=ecf05e47kxj12cpe8nbd0m4lddbapg86iir9027qrx22bqb3&ep=v1_gifs_related&rid=200w.webp&ct=s" alt="Girl in a jacket" style="width:370px;height:300px;">`
              document.getElementById("btnResult").style.display="none";
              document.getElementById("cover").style.display="none";
 				 }else
